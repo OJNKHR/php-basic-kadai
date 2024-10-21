@@ -54,9 +54,9 @@
         echo '<br>';
 
         //メソッドへアクセス
-        echo $food-> name;
+        $food-> show_price();
         echo '<br>';
-        echo $animal-> height; 
+        $animal-> show_height(); 
       ?>
     </p>
   </body>
